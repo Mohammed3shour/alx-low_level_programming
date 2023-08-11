@@ -1,8 +1,10 @@
 #include <stduio.h>
 /**
-*main - ENTRY point 
-*description: a c program that print function
-*return :always 0 (success)
+* main - ENTRY point
+*
+* description: A C program that print function
+
+* Return :always 0 (success)
 */
 
 int main(void)
