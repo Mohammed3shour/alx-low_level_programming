@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - Entry point
  * Description: print _putchar using putchar prototype
@@ -10,7 +11,7 @@ int main(void)
 	int ch;
 
 	for (ch = 0; ch < 8; ch++)
-		_putchar(str[]);
-	_putchar ("\n");
-return (0);
+		_putchar(str[ch]);
+	_putchar ('\n');
+	return (0);
 }
