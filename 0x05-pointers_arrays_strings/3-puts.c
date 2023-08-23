@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * _puts- print a string, followed by a newline to std out
+ * _puts - print a string, followed by a newline to std out
  * @str: string parameter to print
  * Return:nothing
 */
