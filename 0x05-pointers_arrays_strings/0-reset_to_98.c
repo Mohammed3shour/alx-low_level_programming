@@ -4,7 +4,7 @@
  *		and update the value it points to 98
  *
  * @n: int parameter
- *
+ *Description: int parameter n to 98
  * Return: nothing
 */
 
