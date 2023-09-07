@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main -  a program that multiplies two numbers.
+ * @argv : commandline 
+ * @argc : pointer to array
+ * Return:  0 if success
+ */
+int main(int argc, char const *argv[])
+{
+	int sum;
+
+	if (argc == 3)
+	{
+	sum = atoi(argc[1]) * atoi(argc[2])
+	printf("%d\n", sum);
+	}
+	else
+	{
+	printf("error\n");
+	return (1);
+	}
+	return (0);
+}
