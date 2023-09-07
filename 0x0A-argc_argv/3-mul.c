@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 
 	if (argc == 3)
 	{
-	sum = atoi(argc[1]) * atoi(argc[2]);
+	sum = atoi(argv[1]) * atoi(argv[2]);
 	printf("%d\n", sum);
 	}
 	else
