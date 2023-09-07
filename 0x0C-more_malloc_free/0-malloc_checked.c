@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main -  a function that allocates memory using malloc
@@ -11,5 +11,6 @@ void *malloc_checked(unsigned int b)
 
 	if (m == 0)
 	exit(98);
+
 	return (m);
 }
