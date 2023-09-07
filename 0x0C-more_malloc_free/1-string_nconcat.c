@@ -4,6 +4,7 @@
  * string_nconcat-   a function that concatenates two strings.
  * @s1 : string 1
  * @s : string 2
+ * @n : number of byte
  * Return:  a pointer to space in memory
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
