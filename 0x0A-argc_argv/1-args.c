@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 /*
  * main -  a program that prints the number of arguments passed into it.
  * @argc : nubmer of command
