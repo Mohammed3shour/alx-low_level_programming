@@ -5,7 +5,8 @@
  * @b : const
  * @s : pointer
  * @n : bytes
- * Return:  s
+ * return : s
+*/
 char *_memset(char *s, char b, unsigned int n)
 {
 	char *ptr = s ;
@@ -14,17 +15,17 @@ char *_memset(char *s, char b, unsigned int n)
 	*s++ = b;
 	return (ptr);
 }
-/**
+/*
  * _calloc-   a function that concatenates two strings.
  * @nmemb : array
  * @size : size 
  * Return:  a pointer
- */
+*/
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *m;
 
-	if size == 0 || nmemb == 0)
+	if (size == 0 || nmemb == 0)
 		return (NULL);
 	m = malloc(sizeof(int) * nmemb);
 	if (m == 0)
