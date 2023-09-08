@@ -9,7 +9,7 @@
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *ptr = s ;
+	char *ptr = s;
 
 	while (n--)
 	*s++ = b;
@@ -18,7 +18,7 @@ char *_memset(char *s, char b, unsigned int n)
 /*
  * _calloc-   a function that concatenates two strings.
  * @nmemb : array
- * @size : size 
+ * @size : size
  * Return:  a pointer
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -29,7 +29,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	m = malloc(sizeof(int) * nmemb);
 	if (m == 0)
-		return(NULL);
+		return (NULL);
 	_memset(m, 0, sizeof(int) * nemb);
-		return(m);	
+		return (m);
 }
