@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -12,4 +13,4 @@ void free_grid(int **grid, int hight);
 char *argstostr(int ac, char **av);
 char **strtow(char *str);
 
-#endif /*main.h_medo*/
+#endif /*main.h*/
