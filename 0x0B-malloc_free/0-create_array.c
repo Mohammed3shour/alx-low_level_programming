@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**
+/*
  * creat_array-creats an array of charand initialized it.
  * @size: size of array
  * @c: char to initialized
